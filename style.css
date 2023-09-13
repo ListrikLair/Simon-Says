@@ -1,0 +1,58 @@
+#points{
+    text-align: center;
+    font-size: 200%;
+}
+
+#highScore{
+    text-align: center;
+    font-size: 200%;
+}
+
+#colorGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 10rem);
+    grid-template-rows: repeat(2, 10rem);
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    margin-left: -11rem;
+    border: solid 1rem black;
+    
+}
+
+#colorGrid > div{
+    border: solid 5px black;
+}
+#colorGrid > div:active{
+    opacity: 75%
+}
+
+.lightUp{
+    opacity: 50%;
+}
+
+#yellowButton{
+    background-color: rgb(220, 220, 0);
+}
+
+#blueButton{
+    background-color: blue;
+}
+
+#redButton{
+    background-color: red;
+}
+
+#greenButton{
+    background-color: green;
+}
+
+#startButton{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 50%;
+    top: 55%;
+    margin-left: -50px;
+    font-size: inherit;
+}
